@@ -12,7 +12,7 @@ import java.util.Optional;
 import java.util.Random;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://localhost:9090/ems-frontend/")
 @RequestMapping("/api/employees")
 public class EmployeeController {
 
