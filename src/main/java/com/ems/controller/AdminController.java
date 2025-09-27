@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://localhost:9090/ems-frontend/")
 @RequestMapping("/api/admins")
 public class AdminController {
 
@@ -19,7 +19,7 @@ public class AdminController {
 
     // Create Admin
     @PostMapping("/create")
-    @CrossOrigin(origins = "http://localhost:5173")
+    @CrossOrigin(origins = "http://localhost:9090/ems-frontend/")
     public Admin createAdmin(@RequestBody Map<String, String> userData) {
         Admin admin = new Admin();
         
