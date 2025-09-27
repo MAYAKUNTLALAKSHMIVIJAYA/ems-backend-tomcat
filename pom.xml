@@ -64,7 +64,7 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- DevTools (optional, runtime only) -->
+        <!-- DevTools (optional) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -80,6 +80,7 @@
     </dependencies>
 
     <build>
+        <finalName>ems-backend</finalName>
         <plugins>
             <!-- Spring Boot Maven Plugin -->
             <plugin>
